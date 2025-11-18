@@ -1,0 +1,18 @@
+# PyTorch and Computer Vision
+torch>=2.0.0
+torchvision>=0.15.0
+opencv-python>=4.8.0
+pillow>=10.0.0
+
+# Data Processing
+numpy>=1.24.0
+
+# Google Maps Integration
+googlemaps>=4.10.0
+
+# Visualization
+matplotlib>=3.7.0
+
+# Optional: Jupyter for notebook training
+jupyter>=1.0.0
+ipykernel>=6.25.0
