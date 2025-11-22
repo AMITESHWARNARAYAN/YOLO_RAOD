@@ -5,10 +5,23 @@ data/img/
 data/ann/
 data/train/
 data/validation/
+data/train_augmented/
+data/validation_augmented/
+data/external/
+yolo_data/
+yolo_data.zip
 
 # Model files
 models/*.pth
 *.pth
+*.pt
+runs/
+best.pt
+last.pt
+*.onnx
+*.torchscript
+*.tflite
+*.engine
 
 # Python
 __pycache__/

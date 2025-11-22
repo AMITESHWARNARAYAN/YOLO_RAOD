@@ -1,0 +1,30 @@
+# Requirements for YOLOv8 Road Damage Detection
+
+# Core dependencies
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+pillow>=10.0.0
+pyyaml>=6.0
+
+# API server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+requests>=2.31.0
+
+# Optional: GPS integration
+# gpsd-py3>=0.3.0  # Uncomment if using GPS module
+
+# Optional: Database
+# sqlalchemy>=2.0.0
+# psycopg2-binary>=2.9.0  # PostgreSQL
+
+# Optional: Advanced features
+# redis>=5.0.0  # For caching
+# prometheus-client>=0.19.0  # For monitoring
+
+# Development tools
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.1.0
